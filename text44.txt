@@ -1,0 +1,10 @@
+name=input("enter name")
+s1=int(input("enter sub1 marks:"))
+s2=int(input("enter sub2 marks:"))
+s3=int(input("enter sub3 marks:"))
+total=s1+s2+s3
+print("name",name)
+print("subject",s1)
+print("subject2",s2)
+print("subject3",s3)
+print("total marks",total)
