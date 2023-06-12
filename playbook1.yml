@@ -1,0 +1,13 @@
+---
+- name: create a user
+  hosts: all
+  tasks:
+    - name: user creation
+      user:
+        name: ram
+        password: 123
+        uid: 3322
+        shell: /bin/bash
+        comment: "devops eng chandu"
+        home: /tmp/ram 
+           
